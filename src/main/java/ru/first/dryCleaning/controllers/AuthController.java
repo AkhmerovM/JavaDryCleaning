@@ -19,7 +19,8 @@ public class AuthController {
     public String registration(Model model) {
         model.addAttribute("userForm", new User());
 
-        return "/auth/register";
+        return "redirect:/login";
+//        return "/auth/register";
     }
     @PostMapping("/registration")
     public String addUser(@ModelAttribute("userForm") User userForm, BindingResult bindingResult, Model model) {

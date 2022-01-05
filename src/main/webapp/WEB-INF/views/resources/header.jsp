@@ -86,7 +86,7 @@
 					</c:when>
 					<c:otherwise>
 						<li class="nav-item">
-							<a class="nav-link btn btn-outline-light" href="/profile/cabinet">Вход</a>
+							<a class="nav-link" href="/profile/cabinet">Вход</a>
 						</li>
 <%--						<li class="nav-item ml-1">--%>
 <%--							<a class="nav-link btn btn-outline-light" href="/auth/registration">Регистрация</a>--%>
