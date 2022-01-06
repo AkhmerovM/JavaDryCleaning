@@ -28,7 +28,7 @@ padding-bottom:60px;
     <c:forEach items="${posts}" var="post">
         <div class="entry clearfix">
             <div class="entry-image ">
-                <a href="/posts/${post.id}"><img class="image_fade" src="http://652.wp.shabloner.ru/themes/shabloner_652/images/table.jpg" style="opacity: 1;"></a>
+                <a href="/posts/${post.id}"><img class="image_fade" src="/static/images/post/post.jpeg" style="opacity: 1;"></a>
             </div>
 
             <div class="entry-c">
